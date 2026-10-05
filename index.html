@@ -1,0 +1,398 @@
+<!doctype html>
+<html data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page Portfolio</title>
+
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#F4F3EF]">
+
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:p-4 focus:bg-base-200 focus:text-primary top-0 left-0">
+        Salta al contenuto principale
+    </a>
+
+    <header class="navbar bg-base-100 shadow-sm">
+        <div class="flex-1">
+            <a href="/"
+                class="btn btn-ghost text-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">MyPortfolio</a>
+        </div>
+        <nav class="flex-none" aria-label="Navigazione principale">
+            <ul class="menu menu-horizontal px-1">
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:max-w-4xl lg:mx-auto xl:max-w-5xl">
+            <div class="pt-12 px-4 max-w-sm mx-auto md:pb-12 md:max-w-none md:pr-0 md:pl-8 lg:pl-4">
+                <span class="inline-block reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ease-out text-sm font-light">Hello World, I'm</span>
+                <h1 class="reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ease-out delay-200 text-4xl lg:text-5xl font-extrabold text-[#1a1a1a] tracking-tight mt-2">
+                    Nicola Matera
+                </h1>
+                <h2 class="text-3xl font-semibold mt-2 lg:text-4xl">I design digital experiences for <span
+                        class="text-primary">people.</span></h2>
+                <p class="pr-2 mt-12 md:pr-0 md:mt-6 md:text-sm lg:text-base xl:text-lg">
+                    I design and develop user-centric digital solutions. I combine the principles of
+                    <strong>cognitive ergonomics</strong>, <strong>interaction design</strong>, and persuasion with
+                    clean,
+                    modern code
+                    using <strong>React</strong> and <strong>Tailwind</strong>.
+                </p>
+                <div class="mt-8 flex gap-2">
+                    <a href="#contactme"><button
+                        class="btn xl:btn-lg btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">Contact
+                        me</button></a>
+                    <a href="#mywork"><button
+                        class="btn xl:btn-lg btn-outline btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">My
+                        Work</button></a>
+                </div>
+                <div class="relative w-[90%] rounded-2xl mt-8 md:hidden" aria-hidden="true">
+                    <img src="./src/immagini/Gemini_Generated_Image_hn1qlkhn1qlkhn1q-removebg-preview.webp"
+                        class="relative z-10" alt="Nicola Matera avatar">
+                    <img src="src/immagini/Shape.svg" class="absolute w-[80%] top-[10%] left-[10%] z-0"
+                        alt="Avatar shadow decoration">
+                    <img src="src/immagini/Real peolpe.svg" class="absolute -top-[20%] -right-[5%] w-[30%]"
+                        alt="Better interfaces phrase and decoration">
+                </div>
+            </div>
+            <div class="hidden md:flex md:justify-center md:items-end" aria-hidden="true">
+                <div class="relative w-[90%] rounded-2xl">
+                    <img src="src/immagini/Shape.svg" class="absolute w-[80%] top-[10%] left-[10%] z-0"
+                        alt="Avatar shadow decoration">
+                    <img src="./src/immagini/Gemini_Generated_Image_hn1qlkhn1qlkhn1q-removebg-preview.webp"
+                        class="relative z-10" alt="Nicola Matera avatar">
+                    <img src="src/immagini/Real peolpe.svg" class="absolute -top-[20%] right-[5%] w-[30%]"
+                        alt="Better interfaces phrase and decoration">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 bg-[#192738] relative overflow-hidden">
+            <img src="src/immagini/Shape2.svg" alt="shape section decoration"
+                class="absolute -bottom-[5%] w-[70%] left-[60%] md:w-[40%] md:left-[75%] md:-bottom-[5%] lg:w-[25%] lg:left-[80%] lg:-bottom-[15%] ">
+            <div
+                class="z-10 relative px-4 max-w-sm mx-auto md:mx-0 md:pl-8 lg:max-w-4xl lg:mx-auto lg:pl-4 lg:pr-0 xl:max-w-5xl ">
+                <img src="src/immagini/Vector (12).svg" alt="decoration section What I Do"
+                    class="absolute w-[50%] top-[40%] lg:w-[25%] lg:top-[45%] xl:w-[20%]">
+                <img src="src/immagini/Group 1 (3).svg" alt="decoration section What I Do 2"
+                    class="z-0 absolute w-[50%] top-[40%] -right-[20%] md:-right-[115%] md:-top-[10%] lg:right-[0%] lg:w-[20%]">
+                <span class="text-base font-light tracking-widest text-[#F5F3F5] uppercase">Services</span>
+                <h2 class="text-3xl font-extrabold lg:text-4xl text-[#F5F3F5]">What I Do</h2>
+                <p
+                    class="pr-2 mt-4 text-base font-light text-slate-300 tracking-wide leading-relaxed md:text-sm lg:text-base lg:w-[50%] xl:text-lg">
+                    I bring together research, design and development to build useful and accessible digital
+                    experiences.
+                </p>
+            </div>
+            <div
+                class="pt-6 md:pt-12 grid grid-cols-1 md:grid-cols-3 md:w-2xl md:mx-auto justify-items-center lg:w-3xl lg:mx-auto xl:w-4xl">
+                <div class="relative card bg-[#203146]/70 backdrop-blur-md border border-white/10 w-[75%] md:w-[90%] mt-12 md:mt-0  
+                shadow-[0_30px_30px_rgba(0,0,0,0.3)] 
+                transition-all duration-500 ease-in-out 
+                hover:-translate-y-4 hover:scale-105 hover:shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
+
+                    <div class="card-body z-99 text-left px-8 md:px-4">
+                        <div class="flex flex-row gap-4 items-end">
+                            <img src="src/immagini/SearchIcon.svg" class="w-[15%] sm:w-[20%] self-center"
+                                alt="Search icon">
+                            <span class="text-sm font-extrabold tracking-widest text-[#295994] mb-1">01</span>
+                        </div>
+                        <h3 class="card-title text-[#faf3ed] md:text-base xl:text-lg">Interfaces Design & Analysis</h3>
+                        <p
+                            class="pb-4 text-sm md:text-xs xl:text-sm font-light text-slate-300 tracking-wide leading-relaxed">
+                            Rigorous focus on User Experience (UX) and User Interface (UI).
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-[#203146]/70 backdrop-blur-md border border-white/10 w-[75%] md:w-[90%] mt-12 md:mt-0 md:max-w-[90%] 
+                shadow-[0_30px_30px_rgba(0,0,0,0.3)] 
+                transition-all duration-500 ease-in-out 
+                hover:-translate-y-4 hover:scale-105 hover:shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
+                    <div class="card-body text-left px-8 md:px-4">
+                        <div class="flex flex-row gap-4 items-end">
+                            <img src="src/immagini/PainIcon.svg" class="w-[15%] sm:w-[20%] self-center"
+                                alt="Design expertise icon">
+                            <span class="text-sm font-extrabold tracking-widest text-[#295994] mb-1">02</span>
+                        </div>
+                        <h3 class="card-title text-[#faf3ed] md:text-base xl:text-lg">Definition of solutions</h3>
+                        <p
+                            class="text-sm md:text-xs xl:text-sm font-light text-slate-300 tracking-wide leading-relaxed">
+                            Deep understanding of the problem and careful design od the interaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative card bg-[#203146]/70 backdrop-blur-md border border-white/10 w-[75%] md:w-[90%] mt-12 md:mt-0 md:max-w-[90%] 
+                shadow-[0_30px_30px_rgba(0,0,0,0.3)] 
+                transition-all duration-500 ease-in-out 
+                hover:-translate-y-4 hover:scale-105 hover:shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
+                    <div class="card-body z-99 text-left px-8 md:px-4">
+                        <div class="flex flex-row gap-4 items-end">
+                            <img src="src/immagini/Development.svg" class="w-[15%] sm:w-[20%] self-center"
+                                alt="Programming icon">
+                            <span class="text-sm font-extrabold tracking-widest text-[#295994] mb-1">03</span>
+                        </div>
+                        <h3 class="card-title text-[#faf3ed] md:text-base xl:text-lg">Front-end development</h3>
+                        <p
+                            class="text-sm md:text-xs xl:text-sm font-light text-slate-300 tracking-wide leading-relaxed">
+                            Translation of design into code (React, Tailwind, Bootstrap, Wordpress).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative overflow-hidden">
+            <img src="src/immagini/Vector (9).svg" alt="shape section decoration"
+                class="absolute w-[70%] -bottom-[5%] -left-[20%] md:w-[50%] md:-bottom-[30%] lg:-left-[15%] lg:w-[45%] lg:-bottom-[30%] xl:w-[35%] xl:-bottom-[55%] xl:-left-[10%]">
+
+            <div
+                class="relative z-10 px-4 max-w-sm mx-auto md:pl-8 md:mx-0 lg:max-w-4xl lg:pl-4 lg:mx-auto xl:max-w-5xl ">
+                <div class="badge badge-md badge-primary mt-12 p-2">Hands on</div>
+                <h2 class="text-3xl font-extrabold mt-2 lg:text-4xl">My Tech Stack</h2>
+                <h3 class="text-xl lg:text-2xl">The tools I use</h3>
+            </div>
+            <img src="src/immagini/Vector (10).svg" alt="shape section decoration"
+                class="z-0 absolute w-[100%] top-[0%] right-[20%] md:w-[50%] md:-top-[30%] md:-right-[10%] lg:-right-[10%] lg:w-[45%] lg:-top-[35%] xl:w-[35%] xl:-bottom-[55%] xl:-right-[10%]">
+
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-5 md:w-2xl md:mx-auto lg:w-3xl lg:mx-auto gap-6 pt-8 pb-8 xl:w-4xl">
+
+                <div
+                    class="reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ease-out delay-100 mx-auto max-w-[70%] card bg-[white] border flex flex-col md:max-w-none md:w-full lg:w-[95%] xl:w-[85%] md:col-span-2 xl shadow-xl shadow-primary/20 border-white/50">
+
+                    <div class="card-body flex flex-col">
+                        <div>
+                            <p class="text-lg font-light text-center md:text-base xl:text-lg">Methodology</p>
+
+                            <div class="flex flex-row justify-center gap-14 mt-8" aria-hidden="true">
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/people.png" alt="User icon">
+                                    <p class="text-center text-xs">User Research</p>
+                                </div>
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/stats (1).png" alt="Charts icon">
+                                    <p class="text-center text-xs">Usability Testing</p>
+                                </div>
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/brain.png" alt="Brain icon">
+                                    <p class="text-center text-xs">Cognitive Ergonomics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-row justify-center gap-14 mt-4" aria-hidden="true">
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/computer-worker.png" alt="User interaction icon">
+                                <p class="text-center text-xs">Interaction Design</p>
+                            </div>
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/worldwide.png" alt="World icon">
+                                <p class="text-center text-xs">Cultural Context</p>
+                            </div>
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/typography.png" alt="Typography font icon">
+                                <p class="text-center text-xs">Typography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ease-out delay-300 mx-auto max-w-[70%] p-6 md:px-2 card bg-base-100 shadow-xl shadow-primary/20 md:max-w-none md:w-full md:col-span-1 flex flex-col border border-white/50">
+                    <p class="text-lg font-light text-center md:text-base xl:text-lg">Prototyping</p>
+                    <div class="card-body flex flex-col items-center p-0 mt-8" aria-hidden="true">
+                        <div class="w-[10%] md:w-[20%] flex flex-col items-center">
+                            <img src="src/immagini/Figma.png" alt="Figma icon">
+                            <p class="text-center text-xs mt-2 md:mt-4">Figma</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="reveal-on-scroll opacity-0 translate-y-10 transition-all duration-700 ease-out delay-500 mx-auto max-w-[70%] card bg-[white] border flex flex-col md:max-w-none md:w-full md:col-span-2 lg:w-[95%] xl:w-[85%] shadow-xl shadow-primary/20 border-white/50">
+                    <div class="card-body flex flex-col">
+                        <div class="relative">
+                            <p class="text-lg font-light text-center md:text-base xl:text-lg">Development</p>
+                            <div class="flex flex-row justify-center gap-14 mt-8" aria-hidden="true">
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/React.png" alt="React icon">
+                                    <p class="text-center text-xs">React</p>
+                                </div>
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/tailwind.png" alt="Tailwind icon">
+                                    <p class="text-center text-xs">Tailwind CSS</p>
+                                </div>
+                                <div class="w-[10%] flex flex-col items-center gap-4">
+                                    <img src="src/immagini/bootstrap-96.png" alt="Bootstrap icon">
+                                    <p class="text-center text-xs">Bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-row justify-center gap-14 mt-4" aria-hidden="true">
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/Html.png" alt="Html icon">
+                                <p class="text-center text-xs">Html</p>
+                            </div>
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/css-3.png" alt="CSS icon">
+                                <p class="text-center text-xs">CSS</p>
+                            </div>
+                            <div class="w-[10%] flex flex-col items-center gap-4">
+                                <img src="src/immagini/js.png" alt="Javascript icon">
+                                <p class="text-center text-xs">Javascript</p>
+                            </div>
+                        </div>
+                        <img src="src/immagini/Ioindico.png" class="hidden absolute -top-[60%] left-[20%]"
+                            alt="Decorative image of me pointing">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#f7f7f5] w-full  py-12 " id="mywork">
+            <div class="px-4 max-w-sm mx-auto md:pl-8 md:mx-0 lg:max-w-4xl lg:pl-4 lg:mx-auto xl:max-w-5xl ">
+                <div class="badge badge-md badge-primary p-2">Case studies</div>
+                <h2 class="text-3xl font-extrabold lg:text-4xl mt-2">Portfolio</h2>
+                <h3 class="text-xl lg:text-2xl">Selected projects</h3>
+            </div>
+
+            <div class="px-4 max-w-sm mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-4xl md:px-0">
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 mt-8">
+        
+        <div class="card bg-base-100 w-[90%] mx-auto shadow-lg shadow-primary/5 transition-shadow duration-300 hover:shadow-primary/30 cursor-pointer">
+            <figure class="aspect-[2/1] rounded-t-xl rounded-b-lg overflow-hidden">
+                <img src="src/immagini/Gemini_Generated_Image_8wbxa68wbxa68wbx (1).webp"
+                    alt="Computer and smartphone showing the WhattaDocs site" />
+            </figure>
+            <div class="card-body">
+                <h4 class="card-title font-extrabold md:text-base xl:text-lg">
+                    WhattaDocs
+                    <div class="badge badge-sm badge-secondary p-2">NEW</div>
+                </h4>
+                <p class="text-[#818691] md:text-xs xl:text-sm">A conversational document assistant designed
+                    to redefine document processing paradigms.
+                </p>
+                <div class="card-actions justify-end">
+                    <a href="./WhattaDocs.html"
+                        class="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded px-1">View
+                        case</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 w-[90%] mx-auto mt-8 md:mt-0 shadow-lg shadow-primary/5 transition-shadow duration-300 hover:shadow-primary/30 cursor-pointer">
+            <figure class="aspect-[2/1] rounded-t-xl rounded-b-lg overflow-hidden">
+                <img src="src/immagini/Gulliverr.webp" alt="Smartphone showing the Gulliver site" />
+            </figure>
+            <div class="card-body">
+                <h4 class="card-title font-extrabold md:text-base xl:text-lg">
+                    Gulliver
+                </h4>
+                <p class="text-[#818691] md:text-xs xl:text-sm">A bespoke WordPress website crafted to
+                    spotlight a specific IKEA product: <span class="font-bold">Gulliver</span>.
+                </p>
+                <div class="card-actions justify-end">
+                    <a href="./Gulliver.html"
+                        class="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded px-1">View
+                        case</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 w-[90%] mx-auto mt-8 shadow-lg shadow-primary/5 transition-shadow duration-300 hover:shadow-primary/30 cursor-pointer">
+            <figure class="aspect-[2/1] rounded-t-xl rounded-b-lg overflow-hidden">
+                <img class="translate-y-4" src="src/immagini/otium.jpg"
+                    alt="Smartphone showing the Otium application" />
+            </figure>
+            <div class="card-body">
+                <h4 class="card-title font-extrabold md:text-base xl:text-lg">
+                    Otium
+                </h4>
+                <p class="text-[#818691] md:text-xs xl:text-sm">I have developed a customized free-time
+                    management solution that curates tailor-made activities.
+                </p>
+                <div class="card-actions justify-end">
+                    <a href="./Otium.html"
+                        class="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded px-1">View
+                        case</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 w-[90%] mx-auto mt-8 shadow-lg shadow-primary/5 transition-shadow duration-300 hover:shadow-primary/30 cursor-pointer">
+            <figure class="aspect-[2/1] rounded-t-xl rounded-b-lg overflow-hidden">
+                <img src="src/immagini/Studio.webp" alt="PC with the Anchor application open" />
+            </figure>
+            <div class="card-body">
+                <h4 class="card-title font-extrabold md:text-base xl:text-lg">
+                    Anchor
+                </h4>
+                <p class="text-[#818691] md:text-xs xl:text-sm">I designed a custom solution to help users
+                    manage interruptions during independent study sessions
+                </p>
+                <div class="card-actions justify-end">
+                    <a href="./Anchor.html"
+                        class="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded px-1">View
+                        case</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+        </section>
+    </main>
+
+    <footer class="hero relative bg-[#111720]" id="contactme"
+        style="background-image: url('./src/immagini/imageFooter.webp'); background-size: cover;">
+
+        <div class="hero-overlay bg-opacity-20"></div>
+
+        <div class="hero-content text-neutral-content text-center py-16">
+            <div class="max-w-lg">
+                <h2 class="text-3xl font-bold mb-4 lg:text-4xl">Contact me</h2>
+                <p class="mb-6 text-slate-200 text-lg max-w-[70%] mx-auto">
+                    We transform complex challenges into effective digital solutions.</p>
+                <div class="flex justify-center font-medium">
+                    <a href="mailto:n.matera03@gmail.com"
+                        class="btn btn-lg btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#111720]">Email</a>
+                </div>
+                <div class="flex flex-row gap-6 justify-center items-center mt-8">
+                    <a href="https://www.linkedin.com/in/nicola-matera-65ab6025a/" target="_blank"
+                        class="text-neutral-content hover:text-primary transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-[#111720] rounded-sm"
+                        aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.instagram.com/_nicolamatera__/" target="_blank"
+                        class="text-neutral-content hover:text-primary transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-[#111720] rounded-sm"
+                        aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="flex justify-center font-bold mt-8">
+                    <a href="tel:+393804318235"
+                        class="text-slate-300 hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-4 focus-visible:ring-offset-[#111720] rounded px-1 py-0.5">
+                        +39 380 431 8235
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="animation-cardStack.js"></script>
+</body>
+
+</html>
