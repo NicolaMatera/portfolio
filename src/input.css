@@ -4,10 +4,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@source "../node_modules/@preline/carousel/*.js";
-@import "../node_modules/@preline/carousel/variants.css";
-@import "../node_modules/@preline/carousel/theme.css";
-
 @theme {
   --font-sans: 'Plus Jakarta Sans', sans-serif;
   --font-lucky: 'Luckiest Guy', cursive;
